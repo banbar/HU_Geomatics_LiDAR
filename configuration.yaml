@@ -1,0 +1,19 @@
+# Configuration file to process an indoor space
+---
+  input_points: ../Dataset/data.txt
+  rowskip_data_path: ../Dataset/skiprow_data.txt
+  out_file_name: output.pcd
+  image_timings_path: ../Dataset/imageTimings.json
+
+  time_initial: 1665316242.544179 # initial GpsTime reading
+  stepsize: 1000000 # number of data to process in each loop
+  
+  visualize: True # visualizes the point cloud output
+  writeout: True # saves the final point cloud as .pcd
+  log: False # helps identifying the rowskip
+
+  dbscan: # dbscan related parameters
+    down_sample_ratio: 0.05
+    eps: 0.19
+    min_points: 60
+...
