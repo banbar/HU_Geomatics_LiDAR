@@ -13,8 +13,10 @@ The task is to estimate the indoor space area on the handheld LiDAR dataset by u
 
 This repo consists of three files:
 1. **indoor_area.py**: This is the main library that has the data to process the mobile LiDAR dataset.
+
 2. **configuration.yaml**: This is the configuration file. The contents of this configuration file are as follows:
-<img src="/img/conf.jpg" alt="Configuration File" style="height: 200px; width:200px;"/>
+<img src="/img/conf.jpg" alt="Configuration File" style="height: 300px"/>
+
 3. **test_indoor_area.py**: This is the file to find the indoor space area of an input indoor space area. It could operate on multiple indoor space areas by extending the list `image_enter` and `image_exit lists`. Once the `visualize` and `writeout` parameters have been turned on, the following operations will be carried out:
 
 First, the points collected within the specified time frame would be obtained.
