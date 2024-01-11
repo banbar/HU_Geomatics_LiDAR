@@ -1,18 +1,19 @@
 from indoor_area import *
 import json
 
+# Navigate to the panoromas folder
+# Find the images that enter/exit a room
+# Specify its last meaningful digits 
+
+# Classroom 4:
+image_enter = [690] #enter time
+image_exit = [723] #exit time
 
 
 configuration_file = 'configuration.yaml'
 conf = read_configuration(configuration_file)
 f = open(conf['image_timings_path']) # obtain the image timings
 data = json.load(f)
-
- 
-
-image_enter = [550]
-image_exit = [564]
-
 
 for i in range(len(image_enter)):
     print("***   Processing Indoor Space - ", i+1)

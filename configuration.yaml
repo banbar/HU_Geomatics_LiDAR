@@ -12,8 +12,9 @@
   writeout: True # saves the final point cloud as .pcd
   log: False # helps identifying the rowskip
 
-  dbscan: # dbscan related parameters
-    down_sample_ratio: 0.05
+  down_sample_ratio: 0.05 # voxel size
+  
+  dbscan: # dbscan related parameters   
     eps: 0.19
     min_points: 60
 ...

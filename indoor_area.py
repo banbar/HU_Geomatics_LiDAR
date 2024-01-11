@@ -194,7 +194,7 @@ def visualise_pcd(conf, rowskip_enter, rowskip_exit, time_enter, time_exit):
 
 def run_dbscan(conf,point_cloud):
 
-    voxel_size = conf['dbscan']['down_sample_ratio']
+    voxel_size = conf['down_sample_ratio']
     eps = conf['dbscan']['eps']
     min_points = conf['dbscan']['min_points']
     writeout = conf['writeout']
@@ -258,7 +258,7 @@ def draw_histogram(conf,point_cloud):
     ax.set_xlabel('X value')
     ax.set_ylabel('Number of occurrence')
     ax.set_title('Histogram of x values')
-    plt.savefig('X values.svg')
+    plt.savefig('x_values.svg')
     print('figure saved')
     plt.show()
     np.savetxt(filename_x,x_data)
@@ -271,7 +271,7 @@ def draw_histogram(conf,point_cloud):
     ax.set_xlabel('Y value')
     ax.set_ylabel('Number of occurrence')
     ax.set_title('Histogram of y values')
-    plt.savefig('Y values.svg')
+    plt.savefig('y_values.svg')
     print('figure saved')
     plt.show()
     np.savetxt(filename_y,y_data)
@@ -282,7 +282,7 @@ def draw_histogram(conf,point_cloud):
     ax.set_xlabel('Z value')
     ax.set_ylabel('Number of occurrence')
     ax.set_title('Histogram of z values')
-    plt.savefig('Z values.svg')
+    plt.savefig('z_values.svg')
     print('figure saved')
     plt.show()
 
