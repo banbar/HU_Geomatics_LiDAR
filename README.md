@@ -38,20 +38,20 @@ The histogram of the *x-*, *y-* and *z*-values of the main cluster are also save
 </p>
 
 The image timings for different indoor spaces (ranked based on the image enter time) are noted as follows:
-| Indoor Space Name      | Image Enter      | Image Exit |
-| ----------- | ----------- | ----------- |
-| Classroom 1 (C1) | 463 | 498       |
-| Classroom 2 (C2) | 504 | 541       |
-| Men's Restroom | 551 | 564       |
-| Utility Room | 572 | 576       |
-| Women's Restroom | 583 | 598       |
-| Classroom 3 (C3) | 606 | 643       |
-| Security Room | 660 | 666       |
-| Classroom 4 (C4) | 690 | 723       |
-| Men's Restroom | 745 | 757       |
-| Utility Room | 762 | 766       |
-| Women's Restroom | 771 | 782       |
-| GIS Lab | 814 | 832       |
-| Office  | 839 | 864       |
-| PhD Meeting Room | 868 | 883       |
-| Kitchen | 957 | 966       |
+| Indoor Space Name      | Image Enter      | Image Exit | Area (m<sup>2</sup>) |
+| ----------- | ----------- | ----------- | ----------- |
+| Classroom 1 (C1) | 463 | 498       | 77.05       |
+| Classroom 2 (C2) | 504 | 541       | 66.31       |
+| Men's Restroom | 551   | 564       | 9.18       |
+| Utility Room | 572     | 576       | 2.22       |
+| Women's Restroom | 583 | 598       | 9.18       |
+| Classroom 3 (C3) | 606 | 643       | 66.31       |
+| Security Room | 660    | 666       | 15.11       |
+| Classroom 4 (C4) | 690 | 723       | 71.81       |
+| Men's Restroom | 745   | 757       | 9.18       |
+| Utility Room | 762     | 766       | 2.22       |
+| Women's Restroom | 771 | 782       | 9.18       |
+| GIS Lab | 814          | 832       | 49.33       |
+| Office  | 839          | 864       | 21.70       |
+| PhD Meeting Room | 868 | 883       | 29.78       |
+| Kitchen | 957          | 966       | 14.77        |
