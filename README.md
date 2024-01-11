@@ -26,6 +26,7 @@ Second, DBSCAN algorithm would cluster points on the downsampled dataset.
 <img src="/img/dbscan_clusters.png" alt="Clustered points" style="height: 300px"/>
 
 Finally, the cluster with the highest number of points -main cluster- would be selected. This cluster is assumed to represent the points representing the indoor space. The number of points used to represent this cluster is also displayed on Python.
+
 <img src="/img/main_cluster.png" alt="Indoor space points" style="height: 300px"/>
 
 The histogram of the *x-*, *y-* and *z*-values of the main cluster are also saved as a file for further investigation.
@@ -36,12 +37,8 @@ The histogram of the *x-*, *y-* and *z*-values of the main cluster are also save
   <img src="/img/z_values.svg" width="256" />
 </p>
 
-
-
-
-
-
-
-The 'indoor_area.py' file contains the functions and library imports used. The 'test_indoor_area.py' file contains the code that needs to be run to replicate the experiment. The 'configuration.yaml' file contains the parameters used in the experiment. if the experiment is to be run with different parameters, the 'test_indoor_area.py' file can be run again by changing the parameters in this file.
-
-When the 'test_indoor_area.py' file is executed: the point cloud data for the time interval specified in the configuration.yaml file will appear on the screen.
+The image timings for different indoor spaces are noted as follows:
+| Room Name      | Image Enter      | Image Exit |
+| ----------- | ----------- | ----------- |
+| Classroom 1 | 463 | 498       |
+| Classroom 2 | 463 | 498       |
