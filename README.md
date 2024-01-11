@@ -37,8 +37,21 @@ The histogram of the *x-*, *y-* and *z*-values of the main cluster are also save
   <img src="/img/z_values.svg" width="256" />
 </p>
 
-The image timings for different indoor spaces are noted as follows:
+The image timings for different indoor spaces (ranked based on the image enter time) are noted as follows:
 | Room Name      | Image Enter      | Image Exit |
 | ----------- | ----------- | ----------- |
-| Classroom 1 | 463 | 498       |
-| Classroom 2 | 463 | 498       |
+| Classroom 1 (C1) | 463 | 498       |
+| Classroom 2 (C2) | 504 | 541       |
+| Men's Restroom | 551 | 564       |
+| Utility Room | 572 | 576       |
+| Women's Restroom | 583 | 598       |
+| Classroom 3 (C3) | 606 | 643       |
+| Security Room | 660 | 666       |
+| Classroom 4 (C4) | 690 | 723       |
+| Men's Restroom | 745 | 757       |
+| Utility Room | 762 | 766       |
+| Women's Restroom | 771 | 782       |
+| GIS Lab | 814 | 832       |
+| Office  | 839 | 864       |
+| PhD Meeting Room | 868 | 883       |
+| Kitchen | 957 | 966       |
