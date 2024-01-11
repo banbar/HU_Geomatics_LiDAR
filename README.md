@@ -20,13 +20,14 @@ This repo consists of three files:
 3. **test_indoor_area.py**: This is the file to find the indoor space area of an input indoor space area. It could operate on multiple indoor space areas by extending the list `image_enter` and `image_exit lists`. Once the `visualize` and `writeout` parameters have been turned on, the following operations will be carried out:
 
 First, the points collected within the specified time frame would be obtained.
-![All points](/img/all_points_room.png "All points")
+<img src="/img/all_points_room.png" alt="All points" style="height: 300px"/>
 
 Second, DBSCAN algorithm would cluster the points.
-![Clusters](/img/dbscan_clusters.png "Clustered points")
+<img src="/img/dbscan_clusters.png" alt="Clustered points" style="height: 300px"/>
 
 Third, the cluster with the highest number of points -main cluster- would be selected that is assumed to represent the points representing the indoor space.
-![Indoor Space](/img/main_cluster.png "Indoor space points")
+<img src="/img/main_cluster.png" alt="Indoor space points" style="height: 300px"/>
+
 
 
 
