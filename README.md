@@ -31,9 +31,9 @@ Finally, the cluster with the highest number of points -main cluster- would be s
 The histogram of the *x-*, *y-* and *z*-values of the main cluster are also saved as a file for further investigation.
 
 <p float="left">
-  <img src="/img/x_values.svg" width="100" />
-  <img src="/img/y_values.svg" width="100" />
-  <img src="/img/z_values.svg" width="100" />
+  <img src="/img/x_values.svg" width="200" />
+  <img src="/img/y_values.svg" width="200" />
+  <img src="/img/z_values.svg" width="200" />
 </p>
 
 
