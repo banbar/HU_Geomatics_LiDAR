@@ -38,7 +38,7 @@ The histogram of the *x-*, *y-* and *z*-values of the main cluster are also save
 </p>
 
 The image timings for different indoor spaces (ranked based on the image enter time) are noted as follows:
-| Room Name      | Image Enter      | Image Exit |
+| Indoor Space Name      | Image Enter      | Image Exit |
 | ----------- | ----------- | ----------- |
 | Classroom 1 (C1) | 463 | 498       |
 | Classroom 2 (C2) | 504 | 541       |
