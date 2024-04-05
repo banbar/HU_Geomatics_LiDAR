@@ -1,13 +1,13 @@
 # HU_Geomatics_LiDAR
 
-This repository contains the source code for the paper submitted to GeoAdvances 2024 **A Reproducible Approach for Estimating Indoor Space Area on Mobile Lidar Dataset Using DBSCAN**.
-
-[Dataset](https://figshare.com/articles/dataset/Hacettepe_University_Department_of_Geomatics_Engineering_LiDAR_Scan/24866175/1)
+This repository identifies the indoor space area from a handheld LiDAR point cloud dataset. The code is presented here, and the [dataset](https://figshare.com/articles/dataset/Hacettepe_University_Department_of_Geomatics_Engineering_LiDAR_Scan/24866175/1) represents the Geomatics Engineering Department of Hacettepe University, Türkiye.
 
 The required packages are as follows:
 * open3d - `pip3 install open3d`
 * markupsafe - `pip install markupsafe==2.0.1`
 * werkzeug - `pip install werkzeug==2.0.3`
+
+>:white_check_mark: **If you are using this plugin for scientific research, please cite the paper** <a href=https://isprs-archives.copernicus.org/articles/XLVIII-4-W9-2024/37/2024/isprs-archives-XLVIII-4-W9-2024-37-2024.html>`<b>A Reproducible Approach to Estimate Indoor Space Area on a Handheld LiDAR Dataset Using DBSCAN</b></a> 
 
 The task is to estimate the indoor space area on the handheld LiDAR dataset by using the image timings.
 
